@@ -34,7 +34,7 @@ from src.recommender import generate_recommendations
 # -----------------------------------------------------------------------------
 st.set_page_config(
     page_title="SONOVA — Personal Music Intelligence",
-    page_icon="⚡",
+    page_icon=str(Path(__file__).resolve().parent.parent / "assets" / "sonova_logo.png"),
     layout="wide",
     initial_sidebar_state="collapsed",
 )
