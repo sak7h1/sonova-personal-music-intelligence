@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+data/raw/
+data/processed/
+/data/
+/models/skip_prediction_model.joblib
+/reports/figures/
+*.zip
+.DS_Store
